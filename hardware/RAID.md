@@ -16,6 +16,8 @@ RAID0 bietet **keine höhere Redundanz**. Damit ist es nur ein **"Array of Indep
 
 ![RAID1 Diagram](/assets/images/hardware/RAID1.svg)
 
+Hier wird eine vollständige Kopie der gespeicherten Daten auf zusätzlichen physischen Speichern Deswegen auch der Name "Spiegelung". Dies gewährleistet **vollständige Redundanz** und kann den Ausfall eines physischen Speicher kompensieren. Dies ist allerdings **kein Ersatz für eine Datensicherung**. Die **Leseleistung  erhöht** sich durch RAID1 indem verschiedene Sektoren parallel verfügbar sind.
+
 ## RAID5 (Parity)
 
 ## RAID6 (Double Parity)
