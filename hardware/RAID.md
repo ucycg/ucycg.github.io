@@ -1,7 +1,8 @@
 ---
-title: RAID
 layout: default
 ---
+
+# RAID
 
 Mehrere physische Speicher werden zu einem logischen Laufwerk. Dieses hat dann eine **höhere Ausfallsicherheit** oder einen **größeren Datendurchsatz** als nur ein einzelner physischer Speicher.
 
