@@ -1,0 +1,22 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Remove the sidebar/header entirely */
+header {
+  display: none;
+}
+
+/* Expand the content section to use the full width */
+section {
+  width: 100% !important;
+  max-width: 900px; /* Optional: keeps it readable on ultrawide monitors */
+  margin: 0 auto;
+}
+
+/* Fix the wrapper padding */
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
