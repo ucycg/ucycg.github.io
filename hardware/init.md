@@ -4,4 +4,4 @@ Diese Seite dient als Übersicht der Themen im Bereich Hardware die relevant sin
 
 ## Inhaltsverzeichnis
 
-- [RAID](/hardware/RAID/)
+- [RAID](/hardware/RAID.md)
