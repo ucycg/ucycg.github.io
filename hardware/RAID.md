@@ -1,7 +1,6 @@
 ---
 title: RAID
 layout: default
-permalink: /hardware/RAID.md
 ---
 
 # RAID
