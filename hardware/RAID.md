@@ -14,6 +14,8 @@ RAID0 bietet **keine höhere Redundanz**. Damit ist es nur ein **"Array of Indep
 
 ## RAID1 (Mirroring)
 
+![RAID1 Diagram](/assets/images/hardware/RAID1.svg)
+
 ## RAID5 (Parity)
 
 ## RAID6 (Double Parity)
