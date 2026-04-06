@@ -4,6 +4,8 @@ layout: default
 
 # RAID
 
+TO-DO: hier Übersichtstabelle einfügen!
+
 Mehrere physische Speicher werden zu einem logischen Laufwerk. Dieses hat dann eine **höhere Ausfallsicherheit** oder einen **größeren Datendurchsatz** als nur ein einzelner physischer Speicher.
 
 ## RAID0 (Striping)
@@ -29,3 +31,5 @@ RAID5 führt genauso wie RAID0 eine **Verteilung der Daten über verschiedene ph
 Dieses RAID Verfahren funktioniert genaus wie RAID5 allerdings wird die Anzahl der Partitätsbits pro Bereich verdoppelt auf 2. Mit diesem System kann folglich auch der Ausfall von 2 physischen Speichern kompensiert werden. Allerdings unter dem Einsatz eines weiteren zusätzlichen Speichers.
 
 ![RAID6 Diagram](/assets/images/hardware/RAID6.svg)
+
+## RAID Kombinationen

@@ -5,3 +5,5 @@ Diese Seite dient als Übersicht der Themen im Bereich Hardware die relevant sin
 ## Inhaltsverzeichnis
 
 - [RAID](/hardware/RAID.html)
+- [BACKUP](/hardware/BACKUP.html)
+- [USV](/hardware/USV.html)
