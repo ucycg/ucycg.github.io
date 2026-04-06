@@ -4,6 +4,6 @@
 
 ## Inhaltsverzeichnis
 
-- [Hardware - ](../Hardware/init.md)
+- [Hardware](/hardware/init.md)
 
 ...existing code...
