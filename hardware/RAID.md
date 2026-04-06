@@ -1,3 +1,9 @@
+---
+title: RAID
+layout: default
+permalink: /hardware/RAID/
+---
+
 # RAID
 
 Diese Seite beschäftigt sich mit dem Thema RAID. Zunächst geht es darum was ein RAID System ist und welchen Zweck es verfolgt. Anschließend geht es um die verschiedenen Arten von RAID Systemen zusammen mit ihren Vor- und Nachteilen.
