@@ -20,4 +20,12 @@ Hier wird eine vollständige Kopie der gespeicherten Daten auf zusätzlichen phy
 
 ## RAID5 (Parity)
 
+![RAID5 Diagram](/assets/images/hardware/RAID5.svg)
+
+RAID5 führt genauso wie RAID0 eine **Verteilung der Daten über verschiedene physische Speicher** durch allerdings ist zusätzlich der **vollständige Ausfall eines physischen Speichers kompensierbar**, da zusätzliche Partitätsbits für die verschiedenen Bereiche als Absicherung dienen. Insgesamt gibt es also eine **gesteigerte Datenrate beim Lesen** und eine **gute Redundanz** bei verhältnismäßig geringen zusätzlichen kosten. Damit ist RAID5 eine beliebte Variante
+
 ## RAID6 (Double Parity)
+
+Dieses RAID Verfahren funktioniert genaus wie RAID5 allerdings wird die Anzahl der Partitätsbits pro Bereich verdoppelt auf 2. Mit diesem System kann folglich auch der Ausfall von 2 physischen Speichern kompensiert werden. Allerdings unter dem Einsatz eines weiteren zusätzlichen Speichers.
+
+![RAID6 Diagram](/assets/images/hardware/RAID6.svg)
