@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# RAID
+# RAIDll
 
 Mehrere physische Speicher werden zu einem logischen Laufwerk. Dieses hat dann eine **höhere Ausfallsicherheit** oder einen **größeren Datendurchsatz** als nur ein einzelner physischer Speicher.
 
@@ -15,6 +15,10 @@ Die nachfolgende Tabelle bietet einen Überblick über die verschiedenen RAID Ko
 | **5** | 3 | 1 | (n-1) / n | Wirschaftlichkeit |
 | **6** | 4 | 2 | (n-2) / n | Hochverfügbarkeit |
 | **10** | 4 | 1 pro Mirror | 50% | Performance + Sicherheit |
+| **50** | 6 | 1 pro Mirror | (n-s)/n | Performance und Kapazität |  
+| **06** | 8 | 2 | (n-2) / n | Theoretisches Maximum an Stripe Sicherheit |
+
+Defintion: **s** steht hierbei für die **Anzahl von Sub-Arrays**
 
 ## RAID0 (Striping)
 
