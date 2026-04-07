@@ -10,11 +10,11 @@ Die nachfolgende Tabelle bietet einen Überblick über die verschiedenen RAID Ko
 
 | RAID level | Min. Disks | Fehlertoleranz | Nutzkapazität | Fokus |
 | :---: | :---: | :---: | :--- | :--- |
-| **0** | 2 | 0 | $100\%$ | Speed |
-| **1** | 2 | 1 | $50\%$ | Sicherheit |
-| **5** | 3 | 1 | $\frac{n-1}{n}$ | Wirschaftlichkeit |
-| **6** | 4 | 2 | $\frac{n-2}{n}$ | Hochverfügbarkeit |
-| **10** | 4 | 1 pro Mirror | $50\%$ | Performance + Sicherheit |
+| **0** | 2 | 0 | 100% | Speed |
+| **1** | 2 | 1 | 50% | Sicherheit |
+| **5** | 3 | 1 | (n-1) / n | Wirschaftlichkeit |
+| **6** | 4 | 2 | (n-2) / n | Hochverfügbarkeit |
+| **10** | 4 | 1 pro Mirror | 50% | Performance + Sicherheit |
 
 ## RAID0 (Striping)
 
