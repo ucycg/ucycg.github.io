@@ -42,4 +42,16 @@ Dieses RAID Verfahren funktioniert genaus wie RAID5 allerdings wird die Anzahl d
 
 ## RAID Kombinationen
 
-TO-DO: Erklären wie man RAID Kombinationen aufbaut und wie sie dann exemplarisch aussehen!
+Die verschiedenen RAID Level lassen sich auch beliebig kombinieren. Die Schreibweise lautet dann jeweils RAIDXY, wobei die Hierarchie sich in Leserichtung aufbaut.
+
+### Bsp RAID50
+
+![RAID50 Diagram](/assets/images/hardware/RAID50.svg)
+
+RAID50 bedeutet also, dass vollständige RAID5 Systeme zu RAID0 System zusammengeschaltet werden. Ein RAID50 System hat dann also mindestens 6 physikalische Speicher.
+
+### Bsp RAID06
+
+![RAID06 Diagram](/assets/images/hardware/RAID06.svg)
+
+RAID06 bedeutet also, dass vollständige RAID0 Systeme zu einem RAID6 System zusammengeschaltet werden. Ein RAID06 System hat dann also mindestens 8 physikalische Speicher.
