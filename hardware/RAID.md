@@ -8,6 +8,16 @@ TO-DO: hier Übersichtstabelle einfügen!
 
 Mehrere physische Speicher werden zu einem logischen Laufwerk. Dieses hat dann eine **höhere Ausfallsicherheit** oder einen **größeren Datendurchsatz** als nur ein einzelner physischer Speicher.
 
+Die nachfolgende Tabelle bietet einen Überblick über die verschiedenen RAID Konfigurationen
+
+| RAID level | Min. Disks | Fehlertoleranz | Nutzkapazität | Fokus |
+| :---: | :---: | :---: | :--- | :--- |
+| **0** | 2 | 0 | $100\%$ | Speed |
+| **1** | 2 | 1 | $50\%$ | Sicherheit |
+| **5** | 3 | 1 | $\frac{n-1}{n}$ | Wirschaftlichkeit |
+| **6** | 4 | 2 | $\frac{n-2}{n}$ | Hochverfügbarkeit |
+| **10** | 4 | 1 pro Mirror | $50\%$ | Performance + Sicherheit |
+
 ## RAID0 (Striping)
 
 ![RAID0 Diagram](/assets/images/hardware/RAID0.svg)
@@ -33,3 +43,6 @@ Dieses RAID Verfahren funktioniert genaus wie RAID5 allerdings wird die Anzahl d
 ![RAID6 Diagram](/assets/images/hardware/RAID6.svg)
 
 ## RAID Kombinationen
+
+
+TO-DO: Erklären wie man RAID Kombinationen aufbaut und wie sie dann exemplarisch aussehen!
