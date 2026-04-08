@@ -8,8 +8,11 @@ Was ist eine USV, Wie funktioniert eine USV und was muss man darüber in der Pr�
 
 Welche Schutzziele erhöht eine USV und warum?
 
+- Verfügbarkeit, kurzfristige Stromunterbrechungen können überbrückt werden -> durchschnittlicher Stromausfall in Deutschland ~12min. (2025)
+- Integrität, da die Geräte ordnungsgemäß heruntergefahren werden können und somit keine undefinierten Zustände eintreten können.
+
 Welche Geräte sollten über eine USV gesichert werden?
 
-Leistungsbedarf berechenen USV (inklusive Leistungsreserve)
+wichtige IT wie: Server, Netzwerk(Router, notwendige Switches, Firewall)
 
-TO-DO: Einfach mal die beiden Aufgaben versuchen und dann eine Zusammenfassung dafür schreiben!
+Leistungsbedarf berechenen USV (inklusive Leistungsreserve)
