@@ -1,6 +1,5 @@
 ---
 layout: default
-img_path: /assets/images/hardware/raid/
 ---
 
 # RAID
@@ -29,7 +28,7 @@ Mit Ausnahme von RAID 0 dienen RAID-Systeme der Erhöhung der Ausfallsicherheit(
 
 ## RAID0 (Striping)
 
-![RAID0 Diagram]({{ page.img_path }}RAID0.svg)
+![RAID0 Diagram](/assets/images/hardware/raid/RAID0.svg)
 
 RAID0 bietet **keine höhere Redundanz**. Damit ist es nur ein AID **"Array of Independent Discs"**. Wie der Name in der Überschrift schon vorgibt, werden die Daten in einzelne Streifen aufgeteilt und so gleichmäßig auf die verfügbaren Speichermedien aufgeteilt. Dies bietet dann **gesteigerte Datenraten** beim Zugriff.
 
