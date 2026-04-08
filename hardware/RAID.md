@@ -2,8 +2,6 @@
 layout: default
 ---
 
-TO-DO: Warum ist RAID und vor allem welche RAID Kombinationen sind eine Maßnahme zur Erhöhung der Verfügbarkeit?
-
 # RAID
 
 RAID steht für "Redundant Array of Independent Disks"
@@ -24,15 +22,15 @@ Die nachfolgende Tabelle bietet einen Überblick über die verschiedenen RAID Ko
 
 Defintion: **s** steht hierbei für die **Anzahl von Sub-Arrays**
 
-## RAID als Maßname zur Erhöhung der Verfügbarkeit
+## RAID als Maßnahme zur Erhöhung der Verfügbarkeit
 
-Abgesehen von RAID 0 erhöht jedes RAID System die Redundanz, dass heißt mindestens der Ausfall eines physischen Speichers kann erfolgreich kompensiert werden.
+Mit Ausnahme von RAID 0 dienen RAID-Systeme der Erhöhung der Ausfallsicherheit(Redundanz). Durch das Verteilen der Daten auf mehrere physische Datenträger (Mirroring oder Parität) kann der Defekt mindestens eines Laufwerks ohne Datenverlust kompensiert werden. Dies steigert die **Verfügbarkeit** des Gesamtsystems, da der Betrieb trotz Hardware-Fehler aufrechterhalten wird.
 
 ## RAID0 (Striping)
 
 ![RAID0 Diagram](/assets/images/hardware/RAID0.svg)
 
-RAID0 bietet **keine höhere Redundanz**. Damit ist es nur ein **"Array of Independent Discs"**. Wie der Name in der Überschrift schon vorgibt, werden die Daten in einzelne Streifen aufgeteilt und so gleichmäßig auf die verfügbaren Speichermedien aufgeteilt. Dies bietet dann **gesteigerte Datenraten** beim Zugriff.
+RAID0 bietet **keine höhere Redundanz**. Damit ist es nur ein AID **"Array of Independent Discs"**. Wie der Name in der Überschrift schon vorgibt, werden die Daten in einzelne Streifen aufgeteilt und so gleichmäßig auf die verfügbaren Speichermedien aufgeteilt. Dies bietet dann **gesteigerte Datenraten** beim Zugriff.
 
 ## RAID1 (Mirroring)
 
