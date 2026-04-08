@@ -5,6 +5,7 @@ Diese Seite dient als Materialsammlung beziehungsweise als Lernzettel für die A
 ## Inhaltsverzeichnis
 
 - [BWL](/bwl/init.md)
-- [Netzwerke](/netzwerke/init.md)
-- [Hardware](/hardware/init.md)
 - [Datenbanken](/datenbanken/init.md)
+- [Hardware](/hardware/init.md)
+- [Netzwerke](/netzwerke/init.md)
+- [Sicherheit](/sicherheit/init.md)

@@ -52,7 +52,7 @@ Dieses RAID Verfahren funktioniert genaus wie RAID5 allerdings wird die Anzahl d
 
 ## RAID-Verbund
 
-Ein RAID-Verbund ist der zusammenschluss von 2 RAID-Leveln zur Nutzung der Vorteile beider Systeme.
+Ein RAID-Verbund ist der Zusammenschluss von 2 RAID-Leveln zur Nutzung der Vorteile beider Systeme.
 
 Die verschiedenen RAID Level lassen sich auch beliebig kombinieren. Die Schreibweise lautet dann jeweils RAIDXY, wobei die Hierarchie sich in Leserichtung aufbaut.
 
