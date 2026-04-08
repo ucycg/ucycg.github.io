@@ -14,9 +14,11 @@ Ein Backup dient der Absicherung von sensiblen Daten und damit Informationen, um
 
 - Speichert alle Daten auf einem separatem unabhängigem Laufwerk. Es wird also eine 1 zu 1 Kopie erschaffen.
 
+![Vollbackup Diagram](/assets/images/hardware/backup/Vollbackup.svg)
+
 **Vorteil**: Die Wiederherstellung mit dieser Art von Backup ist sehr simpel. Es ist ausreichend das VB auf den gewünschte Laufwerk zu übertragen. Dies ist außerdem schneller als mit den nachfolgenden Verfahren.
 
-**Nachteil**: Es wird maximal viel Speicherplatz benötigt zur Erstellung eines VB. Außerdem ist die Erstellung eines VB zeitaufwändig. 
+**Nachteil**: Es wird maximal viel Speicherplatz benötigt zur Erstellung eines VB. Außerdem ist die Erstellung eines VB zeitaufwändig.
 
 ## Differentielles Backup (DB)
 

@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="rDX9yW7TQPf-AzdqixWZ">
+    <mxGraphModel dx="380" dy="345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-12" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Data" vertex="1">
+          <mxGeometry height="250" width="60" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-13" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" value="VB" vertex="1">
+          <mxGeometry height="250" width="60" x="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-14" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.527;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.526;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170.18" y="261.75" as="sourcePoint" />
+            <mxPoint x="240" y="261.49999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
