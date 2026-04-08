@@ -25,9 +25,12 @@ Dokumente zur Durchführung und Definition kommen vom BSI - Bundesamt für Siche
 **Integrität**: Stellt sicher, dass Informationen unverändert und korrekt bleiben. Änderungen müssen nachvollziehbar sein. Nur befugte Personen dürfen Änderungen durchführen.
 
 ![Github_Branches](/assets/images/sicherheit/Github_Branches.png)
+
+**BILD ANALOGIE 1** Es gibt bei Github den main-branch und feature-branches. Der Main Branch wird niemals direkt angefasst! Nur über einen PR und einen Merge kann man Änderungen vornehmen -> dadurch bleibt der main branch korrekt!
+
 ![Commits](/assets/images/sicherheit/Commits.png)
 
-**BILD ANALOGIE** Es gibt bei Github den main-branch und feature-branches. Der Main Branch wird niemals direkt angefasst! Nur über einen PR und einen Merge kann man Änderungen vornehmen -> dadurch bleibt der main branch korrekt! Außerdem gibt es Commits mit einer ID
+**BILD ANALOGIE 2** Außerdem gibt es Commits mit einem eindeutigen SHA
 
 -> Mögliche Maßnahmen zur Umsetzung: Prüfsummen, Zugriffsrechte und regelmäßige Backups
 
