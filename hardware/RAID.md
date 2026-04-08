@@ -2,7 +2,11 @@
 layout: default
 ---
 
-# RAIDll
+TO-DO: Warum ist RAID und vor allem welche RAID Kombinationen sind eine Maßnahme zur Erhöhung der Verfügbarkeit?
+
+# RAID
+
+RAID steht für "Redundant Array of Independent Disks"
 
 Mehrere physische Speicher werden zu einem logischen Laufwerk. Dieses hat dann eine **höhere Ausfallsicherheit** oder einen **größeren Datendurchsatz** als nur ein einzelner physischer Speicher.
 
@@ -19,6 +23,10 @@ Die nachfolgende Tabelle bietet einen Überblick über die verschiedenen RAID Ko
 | **06** | 8 | 2 | (n-2s) / n | Theoretisches Maximum an Stripe Sicherheit |
 
 Defintion: **s** steht hierbei für die **Anzahl von Sub-Arrays**
+
+## RAID als Maßname zur Erhöhung der Verfügbarkeit
+
+Abgesehen von RAID 0 erhöht jedes RAID System die Redundanz, dass heißt mindestens der Ausfall eines physischen Speichers kann erfolgreich kompensiert werden.
 
 ## RAID0 (Striping)
 
@@ -44,7 +52,9 @@ Dieses RAID Verfahren funktioniert genaus wie RAID5 allerdings wird die Anzahl d
 
 ![RAID6 Diagram](/assets/images/hardware/RAID6.svg)
 
-## RAID Kombinationen
+## RAID-Verbund
+
+Ein RAID-Verbund ist der zusammenschluss von 2 RAID-Leveln zur Nutzung der Vorteile beider Systeme.
 
 Die verschiedenen RAID Level lassen sich auch beliebig kombinieren. Die Schreibweise lautet dann jeweils RAIDXY, wobei die Hierarchie sich in Leserichtung aufbaut.
 
