@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="rDX9yW7TQPf-AzdqixWZ">
+    <mxGraphModel dx="633" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="400" as="sourcePoint" />
+            <mxPoint x="300" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-7" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;startSize=7;sourcePerimeterSpacing=2;width=26;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="200" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-8" connectable="0" parent="P2iGp3l9RlCjIu6xiutn-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="git push" vertex="1">
+          <mxGeometry relative="1" x="0.2021" y="-2" as="geometry">
+            <mxPoint x="-16" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Local repo" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" target="P2iGp3l9RlCjIu6xiutn-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="434" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Remote repo" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;" target="P2iGp3l9RlCjIu6xiutn-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="594" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;startSize=7;width=26;targetPerimeterSpacing=2;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="280" as="sourcePoint" />
+            <mxPoint x="220" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2iGp3l9RlCjIu6xiutn-10" connectable="0" parent="P2iGp3l9RlCjIu6xiutn-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="git pull" vertex="1">
+          <mxGeometry relative="1" x="0.2021" y="-2" as="geometry">
+            <mxPoint x="16" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
