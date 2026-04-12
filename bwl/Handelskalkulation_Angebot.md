@@ -24,7 +24,7 @@ Bezeichnungen:
 - +U.St.
 - =Bruttoverkaufspreis
 
-# Angebotsbestandteile
+## Angebotsbestandteile
 
 Angebotsnummer
 
