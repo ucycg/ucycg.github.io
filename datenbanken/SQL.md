@@ -4,7 +4,7 @@ layout: default
 
 # SQL Befehle für die AP1 Prüfung
 
-## Verschiedene Varianten von SELECT
+## Verschiedene Varianten von SELECT1
 
 SELECT Name, Anschaffungspreis
 FROM Equipemnt
